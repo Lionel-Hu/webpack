@@ -1,3 +1,11 @@
+
+
+# 建议把npm 切换成cnpm下载速度比较快
+
+```
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
+
 ## 
 ###今日目标
 1.能够了解模块化的相关规范 
@@ -519,7 +527,6 @@ C.分析Vue脚手架生成的项目结构
             }
         }
 
-
 ###17.Element-UI的基本使用
 Element-UI:一套基于2.0的桌面端组件库
 官网地址：http://element-cn.eleme.io/#/zh-CN
@@ -529,4 +536,5 @@ B.导入使用：
     import ElementUI from "element-ui";
     import "element-ui/lib/theme-chalk/index.css";
     
+
     Vue.use(ElementUI)
